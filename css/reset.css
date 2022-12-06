@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    cursor:pointer;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+
+
+
+/* para verificar a grid no figma tenho que selecionar a whiteboard(tela) e apertar 
+CTRL + G */ 
+
+/* 1 REM == a 10 px(font-size:62.5%) ( O navegador por padrao recebe 16 px == a 1 REM) */
+
+/* algumas configuraçoes para fazer o reset da pagina */ 
+
+/* a img por padrao vem com display inline o max width - 100% 
+juntamente com o display: block é para a imagem ficar responsiva*/
+
+/* O padding do container vai somar mais 30px da resolução total por isso foi de 1216px para 1246px */
